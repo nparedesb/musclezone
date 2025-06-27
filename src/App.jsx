@@ -21,26 +21,27 @@ function App() {
     <BrowserRouter>
       <div>
       <nav>
+        | |
         <NavLink to="/Valores">
           Valores
         </NavLink>
-        |
+        | |
         <NavLink to="/Servicios">
           Servicios
         </NavLink>
-        |
+        | |
         <NavLink to="/Productos">
           Productos
         </NavLink>
-        |
+        | |
         <NavLink to="/Catalogo">
           Cátalogo    
         </NavLink>
-        |
+        | |
         <NavLink to="/Carrito">
           Carrito de comparas 
         </NavLink>
-        |
+        | |
       </nav>
           
       <main className="flex-grow flex-items-center justify-center">
