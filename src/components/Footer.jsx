@@ -11,17 +11,13 @@ export const Footer = ()  =>  {
         </div>
         <div class="footer-column">
             <h6>Enlaces:</h6>
-            <BrowserRouter>
             <nav>
               <ul>
-              <li><NavLink to="/Home">Inicio</NavLink></li>
-              <li><NavLink to="/Valores">Nuestros Valores</NavLink></li>
                   <li><a href="/Servicios">Nuestros Servicios</a></li>
                   <li><a href="/Productos">Nuestros Productos</a></li>
                   <li><a href="/Carrito">Carrito de compras</a></li>
               </ul>
             </nav>
-            </BrowserRouter>
         </div>
         <div class="footer-column">
             <h6>Siguenos:</h6>
