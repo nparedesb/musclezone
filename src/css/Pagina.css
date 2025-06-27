@@ -1,0 +1,117 @@
+header {
+    background-image: url(/src/img/Gym19.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 20px 10px;
+}
+
+div {
+    background-image: url(/src/img/Fondo.jpg);
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    color: hsl(0, 9%, 98%);
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    font-style: oblique;
+    text-align: center;
+    color: aliceblue;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-style: oblique;
+    text-align: center;
+    color: aliceblue;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: oblique;
+    text-align: center;
+    color: aliceblue;
+}
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: oblique;
+    text-align: center;
+    color: aliceblue;
+}
+
+h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: oblique;
+    text-align: center;
+    color: aliceblue;
+}
+
+h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: oblique;
+    text-align: center;
+    color: aliceblue;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: oblique;
+    text-align: center;
+    color: aliceblue;
+}
+footer {
+    color: aliceblue;
+    background-color: black;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-column h3 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+ul li:haver {
+    color: antiquewhite;
+}
+
+.footer-column {
+    display: flex;
+    gap: 10px;
+}
+
+section {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color:black;
+    border-radius: 10px;
+    text-align: center;
+}
