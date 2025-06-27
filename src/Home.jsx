@@ -2,7 +2,7 @@ function Home () {
 
   return (
     <div>
-    <header>
+      <header>
         <h1 className="titulo">Muscle Zone</h1>
     </header>
     

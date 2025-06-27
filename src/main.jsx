@@ -11,7 +11,7 @@ import { Button } from './components/Button.jsx' */
 import './css/Pagina.css'
 
 /*Page*/
-import Home from "./page/Home"
+import Home from "./Home.jsx"
 import Carrito from "./page/Carrito"
 import Productos from "./page/Productos"
 import Servicios from "./page/Servicios"
@@ -22,15 +22,15 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
-{/* <Layout>
+    <App></App>
+    {/* <App /> */}
+   {/* <Layout>
       <Button label="Inicio"></Button>
       <Button label="Nuestros Valores"></Button>
       <Button label="Nuestros Servicios"></Button>
       <Button label="Nuestros Productos"></Button>
       <Button label="Carrito de compras"></Button>
     </Layout> */}
-    <Footer></Footer>
     <Hooks></Hooks>
   </StrictMode>,
 )
