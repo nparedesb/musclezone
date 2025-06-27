@@ -10,16 +10,6 @@ export const Footer = ()  =>  {
                 </ul>
         </div>
         <div class="footer-column">
-            <h6>Enlaces:</h6>
-            <nav>
-              <ul>
-                  <li><a href="/Servicios">Nuestros Servicios</a></li>
-                  <li><a href="/Productos">Nuestros Productos</a></li>
-                  <li><a href="/Carrito">Carrito de compras</a></li>
-              </ul>
-            </nav>
-        </div>
-        <div class="footer-column">
             <h6>Siguenos:</h6>
                 <ul class="footer-icons">
                   <li><a href="https://www.facebook.com/muscleZone" target="_blank" >Facebook</a></li>
