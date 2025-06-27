@@ -2,10 +2,6 @@ function Servicios () {
 
   return (  
     <>
-    <header>
-        <h1 className="titulo">Muscle Zone</h1>
-    </header>
-      
       <div>
         <h5>Nuestros Servicios.</h5>
         <section itemID="servicios">

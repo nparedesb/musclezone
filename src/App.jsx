@@ -13,10 +13,15 @@ import { Footer } from './components/Footer'
 function App() {
 
   return (
+    <div className='host'>
+      <header>
+        <h1 className="titulo">Muscle Zone</h1>
+      </header>
+    <>
     <BrowserRouter>
       <div>
       <nav>
-       <NavLink to="/">
+       <NavLink to="/Home">
         Inicio    
        </NavLink>
         |
@@ -49,6 +54,8 @@ function App() {
       <Footer></Footer>
       </div>
     </BrowserRouter>
+    </>
+    </div>
   )
 }
 

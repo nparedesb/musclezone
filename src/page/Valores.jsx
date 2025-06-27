@@ -2,10 +2,6 @@ function Valores () {
 
     return (  
       <>
-      <header>
-          <h1 className="titulo">Muscle Zone</h1>
-      </header>
-        
         <div>
           <h5>Nuestros Valores.</h5>
           <section itemID="mision">

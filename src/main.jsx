@@ -3,34 +3,14 @@ import { createRoot } from 'react-dom/client'
 
 /*Components*/
 
-import { Footer } from './components/Footer.jsx'
-/* import { Layout } from './components/Layout.jsx'
-import { Button } from './components/Button.jsx' */
-
-// import './index.css'
 import './css/Pagina.css'
 
 /*Page*/
-import Home from "./Home.jsx"
-import Carrito from "./page/Carrito"
-import Productos from "./page/Productos"
-import Servicios from "./page/Servicios"
-import Valores from "./page/Valores"
-
-import { Hooks } from "./components/Hooks"
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App></App>
-    {/* <App /> */}
-   {/* <Layout>
-      <Button label="Inicio"></Button>
-      <Button label="Nuestros Valores"></Button>
-      <Button label="Nuestros Servicios"></Button>
-      <Button label="Nuestros Productos"></Button>
-      <Button label="Carrito de compras"></Button>
-    </Layout> */}
-    <Hooks></Hooks>
+    {/* <Hooks></Hooks> */}
   </StrictMode>,
 )

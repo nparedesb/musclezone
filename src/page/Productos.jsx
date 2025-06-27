@@ -2,10 +2,6 @@ function Productos () {
 
   return (  
     <>
-    <header>
-        <h1 className="titulo">Muscle Zone</h1>
-    </header>
-      
       <div>
         <h5>Venta de Membresias</h5>
         <section itemID="oro">
