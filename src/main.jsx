@@ -8,6 +8,7 @@ import './css/Pagina.css'
 /*Page*/
 import App from './App.jsx'
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App></App>

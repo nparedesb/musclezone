@@ -1,5 +1,6 @@
 import './css/Products.css'
 import './css/Pagina.css'
+import './css/CartContent.css'
 
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom"
 
@@ -10,9 +11,13 @@ import Productos from "./page/Productos"
 import Servicios from "./page/Servicios"
 import { Footer } from './components/Footer'
 
+import MyContextProvider from './components/Context/MyContextProvider'
+
 function App() {
 
   return (
+    <div>
+    <MyContextProvider>
     <div className='host'>
       <header>
         <h1 className="titulo">Muscle Zone</h1>
@@ -37,10 +42,6 @@ function App() {
         <NavLink to="/Catalogo">
           Cátalogo    
         </NavLink>
-{/*         | |
-        <NavLink to="/Products">
-          Products    
-        </NavLink> */}
         | |        
         <NavLink to="/Carrito">
           🛒 Carrito de compras 
@@ -58,11 +59,12 @@ function App() {
         </Routes>  
       </main>
       <Footer></Footer>
-
-      </div>
+    </div>
     </BrowserRouter>
     </>
     <p className='Derechos'>© Copyright Muscle Zone</p>
+    </div>
+    </MyContextProvider>  
     </div>
   )
 }

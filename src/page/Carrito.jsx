@@ -1,14 +1,14 @@
+import CartElement from "../components/CartContent/CartElement";
+
 function Carrito () {
 	return (
 		<div>
-		  <h5>Carrito de compras.</h5>
-			  <section class="valores">
-				<ul>
-				  <li>Suplementos</li>
-				</ul>
-			  </section>
-			</div>
-		);
-	}
+		  <h5>Carrito de compras</h5>
+		  <div className="product-card-container">
+		  <CartElement></CartElement>
+		  </div>
+		</div>
+	);
+  }
 	
 export default Carrito;
