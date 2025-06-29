@@ -3,21 +3,21 @@
     "id": 1,
     "name": "Membresia Oro - Anualidad",
     "price": 12500.00,
-    "img": "/public/img/Oro.jpg",
+    "img": "/src/assets/Oro.jpg",
     "quanty": 1
   },
   {
     "id": 2,
     "name": "Membresia Plata - Anualidad",
     "price": 10500.00,
-    "img": "/public/img/Plata.jpg",
+    "img": "/src/assets/Plata.jpg",
     "quanty": 1
   },
   {
     "id": 3,
     "name": "Membresia Bronce - Anualidad",
     "price": 8500.00,
-    "img": "/public/img/Bronce.png",
+    "img": "./src/assets/Bronce.png",
     "quanty": 1
   },
   {
