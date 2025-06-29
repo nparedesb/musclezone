@@ -3,49 +3,49 @@
     "id": 1,
     "name": "Membresía Oro - Anualidad",
     "price": 12500.00,
-    "img": "/src/assets/Oro.jpg",
+    "img": "src/assets/Oro.jpg",
     "quanty": 1
   },
   {
     "id": 2,
     "name": "Membresía Plata - Anualidad",
     "price": 10500.00,
-    "img": "/src/assets/Plata.jpg",
+    "img": "src/assets/Plata.jpg",
     "quanty": 1
   },
   {
     "id": 3,
     "name": "Membresía Bronce - Anualidad",
     "price": 8500.00,
-    "img": "/src/assets/Bronce.png",
+    "img": "src/assets/Bronce.png",
     "quanty": 1
   },
   {
     "id": 4,
     "name": "Proteína Dragon",
     "price": 950.00,
-    "img": "/src/assets/Proteina.jpg",
+    "img": "src/assets/Proteina.jpg",
     "quanty": 1
   },
   {
     "id": 5,
     "name": "Multivitaminas",
     "price": 950.00,
-    "img": "/src/assets/Multivitaminico.jpg",
+    "img": "src/assets/Multivitaminico.jpg",
     "quanty": 1
   },
   {
     "id": 6,
     "name": "Omegas 30 cápsulas",
     "price": 999.00,
-    "img": "/src/assets/Omegas.jpg",
+    "img": "src/assets/Omegas.jpg",
     "quanty": 1
   },
   {
     "id": 7,
     "name": "Entrenamiento personalizado",
     "price": 1500.00,
-    "img": "/public/img/Bronce.png",
+    "img": "src/assets/Entrenamiento.jpg",
     "quanty": 1
   },
   {
