@@ -125,6 +125,8 @@ ul li:haver {
 .footer-column {
     display: flex;
     gap: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 section {
