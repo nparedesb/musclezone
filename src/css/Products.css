@@ -1,0 +1,45 @@
+.product-card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px;   
+    text-align: center;
+    font-size: 10px;
+}
+.card {
+    margin: 50px;
+}
+
+.card img {
+    width: 300px;
+    height: 350px;
+}
+.card button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: aliceblue;
+    background-color: darkgrey;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+}
+.card button:hover {
+    opacity: 0.7;
+}
+
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-style: oblique;
+    text-align: center;
+    color: aliceblue;
+}
+.price {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: oblique;
+    text-align: center;
+    color: aliceblue;
+}

@@ -1,14 +1,14 @@
+import Products from "../components/Productos/Products";
+
+
 function Catalogo () {
 
   return (
-
       <div>
         <h5>Cátalogo de productos.</h5>
-        <section class="valores">
-          <ul>
-            <li>Suplementos</li>
-          </ul>
-        </section>
+        <div className="product-card-container">
+        <Products></Products>
+        </div>
       </div>
   );
 }

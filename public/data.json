@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Membresia Oro - Anualidad",
+    "price": 12500.00,
+    "img": "/public/img/Oro.jpg",
+    "quanty": 1
+  },
+  {
+    "id": 2,
+    "name": "Membresia Plata - Anualidad",
+    "price": 10500.00,
+    "img": "/public/img/Plata.jpg",
+    "quanty": 1
+  },
+  {
+    "id": 3,
+    "name": "Membresia Bronce - Anualidad",
+    "price": 8500.00,
+    "img": "/public/img/Bronce.png",
+    "quanty": 1
+  },
+  {
+    "id": 4,
+    "name": "Proteína Dragon 426g",
+    "price": 450.00,
+    "img": "/public/img/Bronce.png",
+    "quanty": 1
+  },
+  {
+    "id": 5,
+    "name": "Multivitaminas",
+    "price": 950.00,
+    "img": "/public/img/Bronce.png",
+    "quanty": 1
+  },
+  {
+    "id": 6,
+    "name": "Omegas 30 cápsulas",
+    "price": 999.00,
+    "img": "/public/img/Bronce.png",
+    "quanty": 1
+  },
+  {
+    "id": 7,
+    "name": "Entrenamiento personalizado",
+    "price": 1500.00,
+    "img": "/public/img/Bronce.png",
+    "quanty": 1
+  },
+  {
+    "id": 8,
+    "name": "Toalla de Gimnasio",
+    "price": 50.00,
+    "img": "/public/img/Bronce.png",
+    "quanty": 1
+  },
+  {
+    "id": 9,
+    "name": "Agua 1 litro",
+    "price": 25.00,
+    "img": "/public/img/Bronce.png",
+    "quanty": 1
+  },
+  {
+    "id": 10,
+    "name": "Bebida energetica",
+    "price": 40.00,
+    "img": "/public/img/Bronce.png",
+    "quanty": 1
+  }
+]

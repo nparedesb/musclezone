@@ -1,11 +1,14 @@
 function Carrito () {
-    return (
-    <div>
-      <div>
-          <h4>Carrito de compras.</h4>
-          <p>Bienvenidos a Nuestro Carrito de Compras.</p>
-      </div>
-    </div>
-    );
-  }
-  export default Carrito;
+	return (
+		<div>
+		  <h5>Carrito de compras.</h5>
+			  <section class="valores">
+				<ul>
+				  <li>Suplementos</li>
+				</ul>
+			  </section>
+			</div>
+		);
+	}
+	
+export default Carrito;
