@@ -66,7 +66,7 @@
     "id": 10,
     "name": "Bebida energetica",
     "price": 40.00,
-    "img": "/public/img/Bebida.jpg",
+    "img": "/img/Bebida.jpg",
     "quanty": 1
   }
 ]
