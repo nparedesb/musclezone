@@ -1,8 +1,19 @@
 import { useContext } from "react"
 import { MyContext } from "../Context/MyContext"
+import CartItemCounter from "../CartItemCounter"
 
 const CartElement = () => {
-    const {cart} = useContext(MyContext)
+    const {cart, setCart} = useContext(MyContext)
+
+    const deleteProducts = (id) => {
+        const foundId = cart.find((element) => element.id === id )
+
+        const newCart = cart.filter((element) => {
+            return element !== foundId
+        })
+
+        setCart(newCart)
+    }
 
     return cart.map((product) => {
         return (
@@ -10,8 +21,15 @@ const CartElement = () => {
                 <img src={product.img} alt='product-card'></img>
                 <div className="space"> | |</div>
                 <p className="name">   {product.name} </p>
+                <CartItemCounter product = {product} ></CartItemCounter>
                 <div className="space"> | |</div>
-                <p className="price"> ${product.price}.00</p>
+                <p className="price"> ${product.price * product.quanty}.00</p>
+
+
+                <p className="cart-delete-product" onClick={() => deleteProducts(product.id)}>
+                {/* windows + . */}
+                    ❌
+                </p>
             </div>
         )
     })

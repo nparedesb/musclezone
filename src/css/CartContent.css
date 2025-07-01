@@ -31,3 +31,11 @@
     text-align: center;
     color: aliceblue;
 }
+
+.cart-delete-product {
+    cursor: pointer;
+}
+.counter-button {
+    cursor: ponter;
+    font-weight: bold;
+}
