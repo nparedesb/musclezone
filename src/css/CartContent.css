@@ -39,3 +39,10 @@
     cursor: ponter;
     font-weight: bold;
 }
+.cart-message-center {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: oblique;
+    text-align: center;
+    color: aliceblue;
+}
