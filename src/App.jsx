@@ -13,18 +13,19 @@ import { Footer } from './components/Footer'
 
 import MyContextProvider from './components/Context/MyContextProvider'
 
+
 function App() {
 
   return (
     <div>
     <MyContextProvider>
-    <div className='host'>
+      <div className='host'>
       <header>
         <h1 className="titulo">Muscle Zone</h1>
       </header>
     <>
     <BrowserRouter>
-      <div>
+        <div>
       <nav>
         | |
         <NavLink to="/Valores">
@@ -48,7 +49,7 @@ function App() {
         </NavLink>
         | |
       </nav>    
-      <main className="flex-grow flex-items-center justify-center">
+        <main className="flex-grow flex-items-center justify-center">
         <Routes>
           <Route path="/Valores" element={<Valores/>}></Route>
           <Route path="/Servicios" element={<Servicios/>}></Route>
@@ -58,15 +59,15 @@ function App() {
           <Route path="/Carrito" element={<Carrito/>}></Route>
         </Routes>  
       </main>
-      <Footer></Footer>
+        <Footer></Footer>
     </div>
-    </BrowserRouter>
+      </BrowserRouter>
     </>
     <p className='Derechos'>© Copyright Muscle Zone</p>
     </div>
-    </MyContextProvider>  
+      </MyContextProvider>  
     </div>
-  )
+    )
 }
 
 export default App

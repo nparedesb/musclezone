@@ -1,6 +1,5 @@
 import Products from "../components/Productos/Products";
 
-
 function Catalogo () {
 
   return (

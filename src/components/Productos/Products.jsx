@@ -21,7 +21,7 @@ const Products = () =>  {
             <div className="card" key={product.id}>
                 <img src={product.img} alt="Lista de Productos" />
                 <h6 className="name">{product.name}</h6>
-                <h6 className="price">{product.price}</h6>
+                <h6 className="price">${product.price}.00</h6>
             <button onClick={() => buyProducts(product)}>Comprar</button>
         </div>
         )
