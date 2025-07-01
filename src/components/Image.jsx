@@ -1,4 +1,4 @@
-import Bebida from './public/img/Bebida.jpg'
+import Bebida from '/Bebida.jpg'
 // import viteLogo from '/vite.svg'
 
 function Image() {

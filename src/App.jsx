@@ -13,7 +13,6 @@ import { Footer } from './components/Footer'
 
 import MyContextProvider from './components/Context/MyContextProvider'
 
-
 function App() {
 
   return (
