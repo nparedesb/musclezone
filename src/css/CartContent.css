@@ -9,3 +9,21 @@
     width: 100px;
     text-align: center;
 }
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-style: oblique;
+    text-align: center;
+    color: aliceblue;
+}
+
+.price {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-style: oblique;
+    text-align: center;
+    color: aliceblue;
+}
+.space {
+    color:transparent
+}

@@ -8,8 +8,10 @@ const CartElement = () => {
         return (
             <div className="product-card-container" key={product.id}>
                 <img src={product.img} alt='product-card'></img>
-                <p>{product.name}</p>
-                <p>{product.price}</p>
+                <div className="space"> | |</div>
+                <p className="name">   {product.name} </p>
+                <div className="space"> | |</div>
+                <p className="price"> ${product.price}.00</p>
             </div>
         )
     })
