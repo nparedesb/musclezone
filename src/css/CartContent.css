@@ -27,3 +27,7 @@
 .space {
     color:transparent
 }
+.cartTotal {
+    text-align: center;
+    color: aliceblue;
+}
