@@ -1,9 +1,12 @@
+/* Mis componentes de Estilo .css */
 import './css/Products.css'
 import './css/Pagina.css'
 import './css/CartContent.css'
 
+/* Mis componentes de Enrutamiento entre páginas */
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom"
 
+/* Mis componentes de Páginas.jsx */
 import Valores from "./page/Valores"
 import Servicios from "./page/Servicios"
 import Productos from "./page/Productos"
@@ -11,9 +14,10 @@ import Catalogo from "./page/Catalogo"
 import Busqueda from './page/Busqueda'
 import Carrito from "./page/Carrito"
 
-
+/* Mi pie de página de mi sitio */
 import { Footer } from './components/Footer'
 
+/* El Hook que me ayuda a que los productos se deplieguen en el carrito de compras y en el catálogo de productos */
 import MyContextProvider from './components/Context/MyContextProvider'
 
 function App() {
