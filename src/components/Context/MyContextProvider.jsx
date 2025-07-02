@@ -14,10 +14,6 @@ const MyContextProvider = ({ children }) => {
         }else{
             setCart([...cart, product ])
         }
-        
-        
-        
-        
 
     }
 

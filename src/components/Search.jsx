@@ -35,7 +35,7 @@ const Search = () => {
 
             <table className="table table-striped table-hover mt-5 shadow-lg">
             <thead>
-                <tr className="bg-curso text-white">
+                <tr className="busqueda-products text-white">
                     <th>Nombre</th>
                     <th>Precio</th>                    
                     <th>Cantidad</th>

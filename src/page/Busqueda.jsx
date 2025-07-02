@@ -1,6 +1,5 @@
 import Search from "../components/Search";
 
-
 function Busqueda () {
 
   return (

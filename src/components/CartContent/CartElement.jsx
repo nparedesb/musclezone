@@ -27,7 +27,7 @@ const CartElement = () => {
 
 
                 <p className="cart-delete-product" onClick={() => deleteProducts(product.id)}>
-                {/* windows + . */}
+                {/* windows + . ==> Agrega un emojis*/}
                     ❌
                 </p>
             </div>

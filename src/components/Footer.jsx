@@ -12,7 +12,7 @@ export const Footer = ()  =>  {
         <div class="footer-column">
             <h6>Siguenos:</h6>
                 <ul class="footer-icons">
-                  <li><a href="https://www.facebook.com/muscleZone" target="_blank" >Facebook - Muscle Zone</a></li>
+                  <li><a href="https://www.facebook.com/musclezone" target="_blank" >Facebook - Muscle Zone</a></li>
                   <li><a href="https://www.instagram.com/musclezone" target="_blank" >Instagram - Muscle Zone</a></li>
                   <li><a href="https://www.youtube.com/musclezone" target="_blank" >YouTube - Muscle Zone</a></li>
                 </ul>
