@@ -4,8 +4,6 @@ import { MyContext } from "../Context/MyContext";
 import CartElement from "./CartElement";
 import CartTotal from "./CartTotal";
 
-// import '/css/CartContent.css'
-
 const CartEmpty = () => {
     const {cart} = useContext(MyContext)
     return (

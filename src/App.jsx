@@ -4,11 +4,14 @@ import './css/CartContent.css'
 
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom"
 
-import Catalogo from "./page/Catalogo"
 import Valores from "./page/Valores"
-import Carrito from "./page/Carrito"
-import Productos from "./page/Productos"
 import Servicios from "./page/Servicios"
+import Productos from "./page/Productos"
+import Catalogo from "./page/Catalogo"
+import Busqueda from './page/Busqueda'
+import Carrito from "./page/Carrito"
+
+
 import { Footer } from './components/Footer'
 
 import MyContextProvider from './components/Context/MyContextProvider'
@@ -27,23 +30,27 @@ function App() {
         <div>
       <nav>
         | |
-        <NavLink to="/Valores">
+        <NavLink className="menu" to="/Valores">
           Valores
         </NavLink>
         | |
-        <NavLink to="/Servicios">
+        <NavLink className="menu" to="/Servicios">
           Servicios
         </NavLink>
         | |
-        <NavLink to="/Productos">
+        <NavLink className="menu" to="/Productos">
           Productos
         </NavLink>
         | |
-        <NavLink to="/Catalogo">
+        <NavLink className="menu" to="/Busqueda">
+          Busqueda
+        </NavLink>
+        | |
+        <NavLink className="menu" to="/Catalogo">
           Cátalogo    
         </NavLink>
         | |        
-        <NavLink to="/Carrito">
+        <NavLink className="menu" to="/Carrito">
           🛒 Carrito de compras 
         </NavLink>
         | |
@@ -53,8 +60,8 @@ function App() {
           <Route path="/Valores" element={<Valores/>}></Route>
           <Route path="/Servicios" element={<Servicios/>}></Route>
           <Route path="/Productos" element={<Productos/>}></Route>
+          <Route path="/Busqueda" element={<Busqueda/>}></Route>
           <Route path="/Catalogo" element={<Catalogo/>}></Route>
-          {/* <Route path="/Products" element={<Products/>}></Route> */}
           <Route path="/Carrito" element={<Carrito/>}></Route>
         </Routes>  
       </main>

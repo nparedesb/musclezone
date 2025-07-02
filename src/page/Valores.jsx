@@ -1,3 +1,5 @@
+import Mailto from "../components/Mailto";
+
 function Valores () {
 
     return (  
@@ -21,7 +23,7 @@ function Valores () {
   
           <section itemID="contacto">
           <h6>Contacto:</h6>
-             <p>Escribenos un mensaje:</p>
+             <p>Para contactarnos, haz clic <Mailto email="musclezone@musclezone.com" subject="Informes del Gimansio" body="Hola, tengo una pregunta...">aquí</Mailto>.</p>
           </section>
         </div>
     </>
